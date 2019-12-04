@@ -1,0 +1,220 @@
+body
+{
+    background-color: #f02828;
+    background-image: linear-gradient(to right, #303030, #000000);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle
+{
+    width: 960px;
+    margin: 20px;
+}
+
+.square
+{
+    width: 50%;
+    float: left;
+}
+
+#logo
+{
+    float: left;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#clock
+{
+    
+    text-align: right;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    width: 460px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tile1
+{
+    position: relative;
+    float: left;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    text-align: center;
+    background-color: #3095d3;
+}
+
+.tile1:hover .overlay 
+{
+    background-color: #1073b1;
+    bottom: 0;
+    height: 100%;
+ }
+
+.tile2
+{
+    position: relative;
+    float: left;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    text-align: center;
+    background-color: #666666;
+}
+
+.tile2:hover .overlay {
+    background-color: #444444;
+    bottom: 0;
+    height: 100%;
+  }
+
+.tile3
+{
+    position: relative;
+    float: left;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    text-align: center;
+    background-color: rgb(136, 214, 19);
+}
+
+.tile3:hover .overlay {
+    background-color: #66b401;
+    bottom: 0;
+    height: 100%;
+  }
+
+.tile4
+{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 460px;
+    height: 122px;
+    text-align: center;
+    background-color: rgb(233, 163, 33);
+}
+
+.tile5
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 25px;
+    text-align: justify;
+    margin: 10px;
+    width: 430px;
+    height: 254px;
+    background-color: #666666;
+}
+
+.fb
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color:#3b5998;
+    transition: 1s ease-in;
+}
+
+.fb:hover
+{
+    background-color:#193776;
+    transition: .5s ease;
+}
+
+.ln
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color:#0e76a8;
+    transition: 1s ease-in;
+}
+
+.ln:hover
+{
+    background-color:#0c5486;
+    transition: .5s ease;
+}
+
+.git
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #f18957;
+    transition: 1s ease-in;
+}
+
+.git:hover
+{
+    background-color: #d06735;
+    transition: .5s ease;
+}
+
+.ig
+{
+    float: left;
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, rgb(177, 31, 206), rgb(230, 110, 11));
+    transition: 1s ease-in;
+}
+
+.ig:hover
+{
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, #900dac, #c44c09);
+    transition: .5s ease;
+}
+
+a.tilelink
+{
+    color: white;
+    text-decoration: none;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .8s ease;
+  }
+  
+  .text {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
